@@ -48,6 +48,7 @@ class AddEditActivityTest {
             )
         )
         materialButton.perform(click())
+        onView(isRoot()).perform(waitFor(3000))
 
         val textInputEditText = onView(
             allOf(
@@ -80,6 +81,7 @@ class AddEditActivityTest {
             )
         )
         materialButton2.perform(click())
+        onView(isRoot()).perform(waitFor(3000))
 
         val textInputEditText2 = onView(
             allOf(
@@ -112,6 +114,7 @@ class AddEditActivityTest {
             )
         )
         materialButton3.perform(click())
+        onView(isRoot()).perform(waitFor(3000))
 
         val textInputEditText3 = onView(
             allOf(
